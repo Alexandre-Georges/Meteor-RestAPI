@@ -1,0 +1,29 @@
+Simple
+
+GET
+http://localhost:3000/collections/simple
+http://localhost:3000/collections/simple/:ID
+
+POST
+http://localhost:3000/collections/simple
+{
+"attribute": "BBBBBBBBBB"
+}
+
+PUT
+http://localhost:3000/collections/simple/:ID
+{
+"attribute": "CCCCCCCCCCCC"
+}
+
+DELETE
+http://localhost:3000/collections/simple/:ID
+
+
+
+
+Token
+
+GET
+http://localhost:3000/collections/token
+X-Auth-Token: qwertyuiop
